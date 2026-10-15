@@ -1,0 +1,38 @@
+ASTONIA WORLD EDITOR 0.3.2 - FIRST RUN
+
+1. Extract the ZIP into a writable folder on your Windows x64 computer.
+   .NET Framework 4.8 is required.
+
+2. Run AstoniaWorldEditor.exe. No client or server process needs to be running.
+
+3. Click Sources.
+   Graphics folder: choose your client's res folder, which contains GX ZIP
+   archives or numbered PNG images. Select the folder, not a ZIP file.
+   Zones folder: choose your server's zones parent folder, which contains
+   numbered area folders and the shared generic folder. Do not select just
+   one numbered area.
+
+   Example locations (your paths can be different):
+     D:\MyAstoniaClient\res
+     E:\MyAstoniaServer\zones
+
+4. Click Load sources. The editor references these folders in place; it does
+   not copy, upload or convert your game files. Keep archives and configuration
+   subfolders with your resources. Use matching client/server data.
+
+5. Choose a map in the top dropdown and click Open zone. Click Fit, zoom with
+   the mouse wheel and right-drag to pan. Use Files > Load warnings if anything
+   did not load correctly.
+
+6. Press Ctrl+S to choose a separate working-map filename before experimenting.
+   Later Ctrl+S saves that working file. Save zone files and template creation
+   are separate actions that deliberately write into the selected source zones.
+
+7. Read User Manual.pdf for detailed tools, connected sets, flags, templates,
+   saving/backups, PNG exports and troubleshooting. docs/UserManual.md is the
+   editable text edition.
+
+The editor package does not include your game artwork or complete zones.
+Every recipient supplies their own compatible res and zones folders.
+sources.ini remembers this computer's selected paths beside the executable.
+Do not include that personal path file when redistributing the editor.
